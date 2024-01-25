@@ -1,0 +1,20 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint-config-airbnb",
+        "tslint-config-prettier"
+    ],
+    "rules": {
+        "no-parameter-reassignment": false,
+        "prefer-template": false,
+        "align": false,
+        "no-else-after-return": false,
+        "ter-arrow-parens": true,
+        "variable-name": [
+            true,
+            "allow-snake-case"
+        ]
+    },
+    "rulesDirectory": [],
+    "autoFixOnSave": true
+}
